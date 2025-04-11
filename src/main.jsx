@@ -6,12 +6,22 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import App from './App'
+import CoursesPg from './Pages/Courses/CoursesPg';
+import CourseDetails from './Pages/Course/CourseDetails';
 
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
+  },
+  {
+    path: "/courses",
+    element: <CoursesPg></CoursesPg>,
+  },
+  {
+    path: "/courses/:id",
+    element: <CourseDetails></CourseDetails>,
   },
 ]);
 
