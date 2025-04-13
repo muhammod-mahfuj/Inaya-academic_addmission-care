@@ -41,7 +41,7 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="navbar-end">
-                <a href='#form' className="btn">আমাদের সাথে যোগাযোগ করুন</a>
+                <a href='#form' className="btn"> যোগাযোগ করুন</a>
             </div>
       </div>
     );
