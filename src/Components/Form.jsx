@@ -19,7 +19,7 @@ const Form = () => {
         Swal.fire({
             icon: "success",
             title: "জমা দেওয়া হয়েছে!",
-            text: "আপনার বার্তা পেয়েছি, ধন্যবাদ!আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।",
+            text: `আপনার বার্তা পেয়েছি, ধন্যবাদ!   আমরা শীঘ্রই আপনার সাথে যোগাযোগ করব।`,
             confirmButtonText: "ঠিক আছে",
           });
 
@@ -37,7 +37,7 @@ const Form = () => {
   };
 
   return (
-    <section  className="max-w-2xl mx-auto bg-white p-10 shadow-md rounded-xl my-10">
+    <section id="form" className="max-w-2xl mx-auto bg-white p-10 shadow-md rounded-xl my-10">
       <h2 className="text-3xl font-bold text-center text-blue-700 mb-8">
         প্রশ্ন জিজ্ঞাসা ফর্ম
       </h2>
@@ -61,7 +61,7 @@ const Form = () => {
           type="email"
           name="email"
           required
-          placeholder="ইমেইল"
+          placeholder="আপনার ইমেইল"
           className="input input-bordered w-full"
         />
 

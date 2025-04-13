@@ -18,10 +18,17 @@ const router = createBrowserRouter([
   {
     path: "/courses",
     element: <CoursesPg></CoursesPg>,
+    loader: () => fetch("./coursesDetails.json"),
   },
   {
     path: "/courses/:id",
     element: <CourseDetails></CourseDetails>,
+    loader: async ({ params }) => {
+      const res = await fetch(`./coursesDetails.json`);
+      const data = await  res.json();
+      const course = data.find(sub => sub.id === params.id);
+      return course;
+    },
   },
 ]);
 

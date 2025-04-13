@@ -1,0 +1,81 @@
+ [
+  {
+    "id": "diploma-nursing",
+    "title": "ডিপ্লোমা ইন নার্সিং",
+    "image": "https://i.ibb.co.com/JwtX7hSP/deploma-Nursing.jpg",
+    "total_classes": "৮০",
+    "special_classes": "",
+    "solve_classes": "৩০",
+    "weekly_tests": "২",
+    "subject_final_tests": "",
+    "final_model_tests": "15"
+  },
+  {
+    "id": "bsc-nursing",
+    "title": "বিএসসি ইন নার্সিং",
+    "image": "https://i.ibb.co.com/jPRKpT75/bsc-Nursing.jpg",
+    "total_classes": "৮০",
+    "special_classes": "",
+    "solve_classes": "৩০",
+    "weekly_tests": "২",
+    "subject_final_tests": "",
+    "final_model_tests": "14"
+  },
+  {
+    "id": "midwifery",
+    "title": "ডিপ্লোমা ইন মিডওয়াইফারি",
+    "image": "https://i.ibb.co.com/fddN0yhk/Midwifery.jpg",
+    "total_classes": "৮০",
+    "special_classes": "",
+    "solve_classes": "২৮",
+    "weekly_tests": "২",
+    "subject_final_tests": "",
+    "final_model_tests": "15"
+  },
+  {
+    "id": "iht-mats",
+    "title": "আইএইচটি-ম্যাটস",
+    "image": "https://i.ibb.co.com/wr6ThX0W/iht-math.jpg",
+    "total_classes": "",
+    "special_classes": "",
+    "solve_classes": "",
+    "weekly_tests": "",
+    "subject_final_tests": "",
+    "final_model_tests": ""
+  },
+  {
+    "id": "nu-admission",
+    "title": "ন্যাশনাল ইউনিভার্সিটি ভর্তি কোচিং",
+    "image": "https://i.ibb.co.com/cKDr4ryc/nu.webp",
+    "total_classes": "",
+    "special_classes": "",
+    "solve_classes": "",
+    "weekly_tests": "",
+    "subject_final_tests": "",
+    "final_model_tests": ""
+  },
+  {
+    "id": "ssc-exam",
+    "title": "এসএসসি পরীক্ষা প্রস্তুতি",
+    "image": "https://i.ibb.co.com/1Yvt7ShC/ssc.webp",
+    "total_classes": "",
+    "special_classes": "",
+    "solve_classes": "",
+    "weekly_tests": "",
+    "subject_final_tests": "",
+    "final_model_tests": ""
+  },
+  {
+    "id": "hsc-exam",
+    "title": "এইচএসসি পরীক্ষা প্রস্তুতি",
+    "image": "https://i.ibb.co.com/JF26B8dp/hsc.webp",
+    "total_classes": "",
+    "special_classes": "",
+    "solve_classes": "",
+    "weekly_tests": "",
+    "subject_final_tests": "",
+    "final_model_tests": ""
+  }
+]
+
+

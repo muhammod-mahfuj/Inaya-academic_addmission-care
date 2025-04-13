@@ -4,8 +4,8 @@ import inayaLogo from '../assets/inaya-logo.jpeg';
 
 const Navbar = () => {
     const links = <>
-       <li><Link to='/'>Home</Link></li>
-       <li><Link to='/courses'>Courses</Link></li>
+       <li><Link to='/'>হোম</Link></li>
+       <li><Link to='/courses'>কোর্সসমূহ</Link></li>
     </>
     return (
         <div className="navbar bg-base-100">
@@ -41,7 +41,7 @@ const Navbar = () => {
                </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">LogIn</a>
+                <a href='#form' className="btn">আমাদের সাথে যোগাযোগ করুন</a>
             </div>
       </div>
     );
